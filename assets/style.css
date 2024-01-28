@@ -1,0 +1,274 @@
+/** HERO SECTION **/
+
+#hero {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-components {
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+@media(width < 450px){
+  .hero-components {
+    padding-top: 150px;
+    padding-bottom: 200px;
+  }
+}
+
+.name-font {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  color: #fff5e0;
+  text-align: center;
+}
+
+@media(width < 450px){
+  .name-font {
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    color: #fff5e0;
+    text-align: center;
+  }
+}
+
+.about {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: aliceblue;
+  padding-top: 20px;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+
+@media(width < 450px){
+  .about {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: aliceblue;
+    padding-top: 30px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+  }
+}
+
+.about-out {
+  display: flex;
+  justify-content: center;
+}
+
+/** about me section **/
+
+#middle {
+  height: 100%;
+  background-color: #fff5e0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.profile-pic-contain {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.intro-1 {
+  font-family: "Noto Sans Inscriptional Parthian", sans-serif;
+  text-align: center;
+}
+
+.intro-2 {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #313131;
+  padding-bottom: 20px;
+}
+
+@media(width < 450px){
+  .intro-2 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 1.1rem;
+    color: #313131;
+    padding-bottom: 20px;
+  }
+}
+
+/** my skills section **/
+
+.skills-head {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skills-body {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  width: 60%;
+  margin: 100px auto 0 auto;
+  row-gap: 2rem;
+  column-gap: 1rem;
+  text-align: left;
+}
+
+@media(width < 450px){
+  .skills-body {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    width: 90%;
+    margin: 100px auto 0 auto;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    text-align: left;
+  }
+  
+  .skill-1a img{
+    width: 50px;
+    height: 50px;
+  }
+  .skill-2a img{
+    width: 50px;
+    height: 50px;
+  }
+  .skill-3a img{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+/** review section **/
+
+.review {
+  display: grid;
+}
+
+.review-head {
+  padding-bottom: 50px;
+}
+
+@media(width < 450px){
+  .review-head {
+    padding-bottom: 50px;
+    font-size: 40px;
+  }
+}
+
+.name-photo {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.name-des {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.name-des p {
+  margin-bottom: 0;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.designation {
+  font-size: 0.75rem;
+  color: #393939;
+}
+
+.review-container {
+  min-height: 500px;
+  text-align: left;
+}
+
+@media(width < 450px){
+  .box-review{
+    padding-bottom: 50px;
+  }
+}
+
+.box {
+  padding-top: 10px;
+  background-color: aliceblue;
+  border: 5px solid #fff5e0;
+  border-radius: 20px;
+  margin-bottom: 150px;
+}
+
+@media(width < 450px){
+  .box {
+    padding-top: 10px;
+    background-color: aliceblue;
+    border: 15px solid #fff5e0;
+    border-radius: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+/** footer **/
+.foot {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.f1 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  gap: 20%;
+}
+
+.f2 {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+.link-f a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.button-f:hover {
+  color: rgb(169, 177, 148);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin-top: 2px;
+}
+
+.copyright {
+  color: aliceblue;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
